@@ -1,3 +1,14 @@
+/**
+ * Represents a user with a personal to-do list for managing tasks and staying organized.
+ *
+ * Users can interact with their to-do lists through methods like:
+ * * **Viewing list details:** Printing the user's name and associated to-do list information.
+ * * **Accessing the list:** Retrieving the user's to-do list object for further manipulation.
+ * * **Adding a list:** Assigning a new to-do list to the user.
+ * * **Displaying the list contents:** Printing a formatted overview of the user's tasks.
+ *
+ * This class provides a basic framework for managing individual users and their associated tasks within a larger to-do list system.
+ */
 public class User {
 
     private String name;

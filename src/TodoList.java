@@ -1,5 +1,14 @@
 import java.util.ArrayList;
 
+/**
+ * Represents a user's to-do list for managing tasks and staying organized.
+ *
+ * This class stores a list of `Task` objects and provides functionality for:
+ * * **Creating a new to-do list** with an owner and name.
+ * * **Adding, removing, and accessing tasks** within the list.
+ * * **Displaying a formatted list** of tasks for the user.
+ *
+ */
 public class TodoList {
 
     private User owner;
@@ -27,10 +36,16 @@ public class TodoList {
         this.tasks = new ArrayList<>();
     }
 
+    /**
+     * Returns the owner
+     */
     public User getOwner() {
         return owner;
     }
 
+    /**
+     * Prints the tasks
+     */
     public void getTasks() {
         System.out.println(tasks);
     }

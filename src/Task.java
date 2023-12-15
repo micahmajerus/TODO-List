@@ -1,3 +1,10 @@
+/**
+ * Represents a single task or activity with a name, optional description, due date, and completion status.
+ *
+ * This class provides a simple way to track and manage individual tasks within a larger project or workflow.
+ * It offers constructors for varying levels of detail, allowing you to specify just a name and completion status,
+ * or add a description and due date for more complex task management.
+ */
 public class Task {
     private String name;
     private String description;
